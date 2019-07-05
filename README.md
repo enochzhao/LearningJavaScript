@@ -1,2 +1,2 @@
-# web
-All my web projects are here
+# JavaScriptLearning
+All my JavaScript learning test codes are here

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CodeInBodyTest</title>
+</head>
+<body>
+	<p id="ex">HTML5+CSS3</p>
+	<button type="button" onclick="exFun()">OK</button>
+	<script>
+		function exFun(){
+			if(document.getElementById("ex").innerHTML == "javascript"){
+				document.getElementById("ex").innerHTML = "HTML5+CSS3";
+			}else{
+				document.getElementById("ex").innerHTML = "javascript"
+			}
+		}
+	</script>
+</body>
+</html>

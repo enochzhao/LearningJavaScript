@@ -20,3 +20,12 @@ function exFun(){
 		document.getElementById("msg").innerHTML = "晚上";
 	}
 }
+
+function ternaryOperatorFun(){
+	var timeHour = new Date().getHours();
+	var txtText;
+
+	txtText = (timeHour > 13) ? "下午" : "上午";
+	document.getElementById("numberHour2").innerHTML = "Hours = " + timeHour;
+	document.getElementById("msg2").innerHTML = "现在是：" + txtText;
+}

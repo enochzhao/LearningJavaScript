@@ -1,2 +1,2 @@
-# JavaScriptLearning
-All my JavaScript learning test codes are here
+# LearningJavaScript
+All my JavaScript test codes are here
